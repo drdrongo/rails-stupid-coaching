@@ -20,17 +20,18 @@ form {
   width: 100%;
 }
 
-.question em {
-  font-family: serif;
+.question {
+  em {
+    font-family: serif;
+  }
 }
 
 .return a {
   text-decoration: none;
   color: #443b30;
-}
-
-.return a:hover {
-  color: #029990;
+  &:hover {
+    color: #029990;
+  }
 }
 
 .footer {
